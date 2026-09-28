@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/plancell",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plan config/cell key checks for twelve-factor services.",
+  "bin": {
+    "plancell": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/plancell.git"
+  },
+  "homepage": "https://theworker02.github.io/plancell/",
+  "keywords": [
+    "plan",
+    "cell",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
